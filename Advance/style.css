@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    text-align: center;
+    position: relative;
+}
+
+#circle {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 2px solid;
+}
+
+.text {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
