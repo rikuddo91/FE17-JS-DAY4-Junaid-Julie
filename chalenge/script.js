@@ -6,8 +6,7 @@
 
 // In each half of the layout, place a button that calls a function. This function should create one random number. Next, display the number separately and visually appealing in each player's half, so that the player can see what they "rolled". Once both players have rolled, announce the winner based on the highest score! Do your best to create a rich game-design using CSS or Bootstrap.
 
-// var player1 = "Player 1";
-// var player2 = "Player 2";
+
 var player1 = prompt("Enter Player 1");
 var player2 = prompt("Enter Player 2");
 document.getElementById("player1").innerHTML = player1;
