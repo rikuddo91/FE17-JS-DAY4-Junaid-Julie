@@ -1,0 +1,166 @@
+
+
+body {
+  display: flex;
+  background-color: green;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  
+}
+
+.game{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+
+.side {
+  width: 10%;
+  text-align: center;
+}
+
+.names{
+  border: 5px solid brown;
+  border-radius: 20px;
+  background-color: burlywood;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+.field {
+  /* background-color: white; */
+  width: 80%;
+  height: 450px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.player {
+  border: 5px solid brown;
+  width: 50%;
+}
+
+.player{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-around;
+}
+#msg,
+#reset {
+  text-align: center;
+}
+
+button{
+  background-color: burlywood;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100px;
+}
+#msg,
+img {
+margin: 10px;
+}
+
+#msg {
+  font-size: large;
+}
+
+#reset,
+.roll {
+  display: none;
+}
+
+.roll {
+  margin-top: 100px;
+}
+
+img{
+  width: 50%;
+  
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399.999px) {
+  .field {
+    height: 350px;
+  }
+}
+
+@media screen and  (min-width: 992px) and (max-width: 1199.999px) {
+  .field{
+    height: 310px;
+  }
+  
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.999px) {
+  .field {
+    height: 260px;
+  }
+
+  #countp2,
+  #countp1 {
+    font-size: 16px;
+  }
+
+  #player1count,
+  #player2count {
+    font-size: 22px;
+  }
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.999px) {
+  .field {
+    height: 280px;
+  }
+  .game {
+    width: 79%;
+  }
+  #countp2, #countp1 {
+    font-size: 16px;
+  }
+
+  #player1count,
+  #player2count {
+    font-size: 22px;
+  }
+
+  
+
+}
+
+@media screen and  (max-width: 575.999px) {
+  .field {
+    height: 230px;
+  }
+
+  .game {
+    width: 78%;
+  }
+
+  #countp2,
+  #countp1 {
+    font-size: 12px;
+  }
+
+  header{
+    font-size: 16px;
+  }
+
+  .names{
+    font-size: 14px;
+  }
+
+  #player1count, #player2count{
+    font-size: 14px;
+  }
+
+}

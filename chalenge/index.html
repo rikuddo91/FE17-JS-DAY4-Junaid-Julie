@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chalenge exercises JS day 4</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="side">
+        <header>
+          <h1 id="player1count">Player 1</h1>
+        </header>
+        <div id="countp1"></div>
+      </div>
+      <div class="game">
+        <header>
+          <h1>Roll Of The Dice</h1>
+        </header>
+        <div class="names">
+          <div>
+            <h1 id="player1">Player 1</h1>
+          </div>
+          <div>
+            <h1>vs.</h1>
+          </div>
+          <div>
+            <h1 id="player2">Player 2</h1>
+          </div>
+        </div>
+
+        <main class="field">
+          <div class="player">
+            <img src="./pics/blank.png" id="dice1" />
+            <button id="roll1" class="roll">Roll</button><br />
+          </div>
+
+          <div class="player">
+            <img src="./pics/blank.png" id="dice2" />
+            <button id="roll2" class="roll">Roll</button><br />
+          </div>
+        </main>
+
+        <div id="msg"></div>
+        <div id="reset">
+          <button class="">New Game</button>
+        </div>
+      </div>
+      <div class="side">
+        <header>
+          <h1 id="player2count">Player 2</h1>
+        </header>
+        <div id="countp2"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
